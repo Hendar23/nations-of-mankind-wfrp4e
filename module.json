@@ -12,9 +12,9 @@
       "name": "Seseta"
     }
   ],
-  "url": "https://github.com/Hendar23/nations-of-mankind-wfrp4e",
-  "manifest": "https://raw.githubusercontent.com/Hendar23/nations-of-mankind-wfrp4e/main/module.json",
-  "download": "https://github.com/Hendar23/nations-of-mankind-wfrp4e/archive/refs/heads/main.zip",
+  "url": "https://github.com/Cpt-Igloo/nations-of-mankind-wfrp4e",
+  "manifest": "https://raw.githubusercontent.com/Cpt-Igloo/nations-of-mankind-wfrp4e/main/module.json",
+  "download": "https://github.com/Cpt-Igloo/nations-of-mankind-wfrp4e/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "14"
