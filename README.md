@@ -13,6 +13,8 @@ If you previously installed the original module, disable it before installing th
 
 The additional weapon and armour qualities are available for manual use. Their special combat effects are described in the quality text and are not automated by this module.
 
+Origins with a regional trait link use the linked journal entry as a rules reference. Choose and add the relevant regional trait manually during character creation.
+
 ## What's Included
 - New Rules for Human Character Creation with new origins from the Empire and the whole world, from Norsca to Cathay
 - 47 new careers

@@ -1,4 +1,4 @@
-'{
+{
   "name": "Nations of Mankind Random Career",
   "die": "1d100",
   "extend": true,
@@ -9603,4 +9603,4 @@
     "human-tilean-nom",
     "human-westerlander-nom"
   ]
-}'
+}

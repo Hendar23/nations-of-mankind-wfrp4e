@@ -24,7 +24,7 @@ Hooks.on("setup", () => {
         ],
         talents : [
             "Doomed, Hatred (Greenskins)",
-            "Etiquette (Dwarves), @Table[talents]{Additional Random Talent}",
+            "Etiquette (Dwarves), random[1]",
             "Sharp, Suave",
             2
         ]
@@ -70,7 +70,7 @@ Hooks.on("setup", () => {
             "Ranged (Bow)"
         ],
         talents : [
-            "Doomed, @Table[talents]{Additional Random Talent}",
+            "Doomed, random[1]",
             "Marksman, Coolheaded",
             3
         ]
@@ -93,7 +93,7 @@ Hooks.on("setup", () => {
             "Swim"
         ],
         talents : [
-            "Doomed, @Table[talents]{Additional Random Talent}",
+            "Doomed, random[1]",
             "Very Resilient, Stone Soup",
             3
         ]
@@ -116,7 +116,7 @@ Hooks.on("setup", () => {
             "Stealth (Rural or Urban)"
         ],
         talents : [
-            "Doomed, @Table[talents]{Additional Random Talent}",
+            "Doomed, random[1]",
             "Nimble Fingered, Suave",
             3
         ]
@@ -353,7 +353,7 @@ Hooks.on("setup", () => {
         talents : [
             "Lightning Reflexes, Suave",
             "Luck",
-            "Resistance (Heat), @Table[talents]{One Additional Random Talent}",
+            "Resistance (Heat), random[1]",
             "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Kingdom Trait (Any)}"
         ]
     }
@@ -399,7 +399,7 @@ Hooks.on("setup", () => {
             "Ranged (Bow)"
         ],
         talents : [
-            "Hardy, @Table[talents]{One Additional Random Talent}",
+            "Hardy, random[1]",
             "Resistance (Cold)",
             "Marksman, Very Resilient",
             "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Provincial Trait (Any)}"
@@ -449,7 +449,7 @@ Hooks.on("setup", () => {
             "Night Vision",
             "Resistance (Cold)",
             "Very Strong, Warrior Born",
-            "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Tribe Trait (Any)}, @Table[talents]{Two Additional Random Talents}"
+            "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Tribe Trait (Any)}, random[2]"
         ]
     }
 
@@ -471,7 +471,7 @@ Hooks.on("setup", () => {
         ],
         talents : [
             "Lightning Reflexes, Sprinter",
-            "Strong Legs, @Table[talents]{One Additional Random Talent}",
+            "Strong Legs, random[1]",
             "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Tribe Trait (Any)}"
         ]
     }
@@ -517,8 +517,8 @@ Hooks.on("setup", () => {
             "Sleight of Hand"
         ],
         talents : [
-            "Gregarious, @Table[talents]{One Additional Random Talent}",
-            "Read/Write, @Table[talents]{One Additional Random Talent}",
+            "Gregarious, random[1]",
+            "Read/Write, random[1]",
             "Sharp, Suave",
             "@Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{City-State Trait (Any)}"
         ]
@@ -549,5 +549,5 @@ Hooks.on("setup", () => {
 
     
 
-mergeObject(game.wfrp4e.config, config)
+foundry.utils.mergeObject(game.wfrp4e.config, config)
 })

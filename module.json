@@ -1,8 +1,8 @@
 {
   "id": "nations-of-mankind-wfrp4e",
-  "title": "Nations of Mankind [WFRP4]",
+  "title": "WFRP 4e - Nations of Mankind",
   "description": "This module adapts Big Boss' unofficial supplement Nations of Mankind to Foundry VTT's wfrp4e system. It adds several new origins for humans from all across the old world, as well as new careers & talents.",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "authors": [
     {
       "name": "Noober",
@@ -14,7 +14,7 @@
   ],
   "url": "https://github.com/Hendar23/nations-of-mankind-wfrp4e",
   "manifest": "https://raw.githubusercontent.com/Hendar23/nations-of-mankind-wfrp4e/main/module.json",
-  "download": "https://github.com/Hendar23/nations-of-mankind-wfrp4e/archive/refs/heads/main.zip",
+  "download": "https://github.com/Hendar23/nations-of-mankind-wfrp4e/archive/refs/heads/v1.1.3.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "14"
@@ -28,8 +28,8 @@
     ]
   },
   "scripts": [
-    "/scripts/qualities-nom.js",
-    "/scripts/subspecies-nom.js"
+    "scripts/qualities-nom.js",
+    "scripts/subspecies-nom.js"
   ],
   "languages": [
     {
