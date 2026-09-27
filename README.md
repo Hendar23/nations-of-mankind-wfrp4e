@@ -5,7 +5,11 @@ The original PDF can be find [Here.](https://drive.google.com/drive/folders/17K5
 
 This module is specifically designed for the [WFRP4e system](https://github.com/moo-man/WFRP4e-FoundryVTT)
 
-Manifest URL : `https://raw.githubusercontent.com/Cpt-Igloo/nations-of-mankind-wfrp4e/main/module.json`
+Install through Foundry's **Install Module** window using this manifest URL:
+
+`https://raw.githubusercontent.com/Cpt-Igloo/nations-of-mankind-wfrp4e/main/module.json`
+
+The additional weapon and armour qualities are available for manual use. Their special combat effects are described in the quality text and are not automated by this module.
 
 ## What's Included
 - New Rules for Human Character Creation with new origins from the Empire and the whole world, from Norsca to Cathay
