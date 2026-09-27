@@ -1,5 +1,5 @@
 Hooks.on("setup", () => {
-  WFRP4E = game.wfrp4e.config
+  const WFRP4E = game.wfrp4e.config;
   // Add new weapon qualities
 
   WFRP4E.weaponQualities["concealed"] = "Concealed";
@@ -19,28 +19,5 @@ Hooks.on("setup", () => {
 
   WFRP4E.armorQualities["missile-resistant"] = "Missile-Resistant";
   WFRP4E.qualityDescriptions["missile-resistant"] = "This armor is designed in such a way to protect the wearer from ranged attacks. While wearing a piece of armor with this quality, missile attacks have their Damage reduced by 2. Furthermore, the Damaging Quality of all ranged weapons is ignored when striking this armor with missile attacks, with the exception of ranged weapons with the Blackpowder Quality.";
-
-  // Applies Crushing Quality to weapons
-  
-    let weapon = data.attackerTestResult.weapon;
-    let crushing = weapon.properties.qualities.includes(game.i18n.localize('Crushing'));
-
-    // Return if no crashing or defender wins
-    if (crushing === false)
-      return;
-
-    if (data.winner === "defender")
-      return;
-
-    let target = canvas.tokens.get(data.speakerDefend.token);
-    let armor = target.actor.prepareItems().AP;
-    let hitLocation = data.hitloc.value;
-
-    if (armor[hitLocation].value >= 2) {
-      armor[hitLocation].value-=2;
-      console.log("Armor Damaged");
-    }   
-
-  
 
 });
